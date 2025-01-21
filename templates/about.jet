@@ -1,0 +1,10 @@
+{{extends "layouts/layout.jet"}}
+{{block body()}}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1><b>О нас</b></h1>
+        </div>
+    </div>
+</div>
+{{end}}

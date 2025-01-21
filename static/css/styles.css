@@ -1,0 +1,50 @@
+.footer {
+    height: 5em;
+    color: #FFFFFF;
+    margin-top: 1.5em;
+    padding: 1em;
+    font-size: 80%;
+}
+
+.room-image {
+    max-width: 60%;
+}
+
+.notie-container {
+    box-shadow: none;
+}
+
+.datepicker {
+    z-index: 10000;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inc {
+    border-color: rgba(0, 123, 255, 0.2);
+    color: rgb(0, 123, 255);
+}
+
+.inc:hover {
+    background-color: rgb(0, 123, 255);
+    color: #FFFFFF;
+}

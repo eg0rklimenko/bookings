@@ -1,0 +1,115 @@
+{{extends "layouts/layout.jet"}}
+{{block body()}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h1 class="mt-5"><b>Бронь номера</b></h1>
+
+            {{res := reservation}}
+
+            <form action="/make-reservation" method="post" novalidate class="">
+                <input type="hidden" name="csrf_token" value="{{csrf_token}}">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <div class="form-group mt-3" id="names">
+                            <div>
+                                <label for="first_name">Имя:</label>
+                                <label class="text-danger">{{form.Errors.Err("first_name")}}</label>
+                                <input required class='form-control {{if form.Errors.Err("first_name") != "" }}
+                                    is-invalid {{end}}' type="text" name="first_name" id="first_name" value="{{res.FirstName}}"
+                                    placeholder="Имя">
+                            </div>
+
+                            <div class="mt-2">
+                                <label for="last_name">Фамилия:</label>
+                                <label class="text-danger">{{form.Errors.Err("last_name")}}</label>
+                                <input required class='form-control {{if form.Errors.Err("last_name") != "" }}
+                                    is-invalid {{end}}' type="text" name="last_name" id="last_name" value="{{res.LastName}}"
+                                    placeholder="Фамилия">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="form-group" id="reservation-dates">
+
+                            <div>
+                                <label for="date_from">Дата въезда:</label>
+                                <label class="text-danger">{{form.Errors.Err("date_from")}}</label>
+                                <input required class='form-control {{if form.Errors.Err("date_from") != ""}}
+                                    is-invalid {{end}}' type="text" name="date_from" id="date_from"
+                                    value="{{res.DateFrom}}" placeholder="Дата въезда">
+                            </div>
+
+                            <div class="mt-2">
+                                <label for="date_to">Дата выезда:</label>
+                                <label class="text-danger">{{form.Errors.Err("date_to")}}</label>
+                                <input required class='form-control {{if form.Errors.Err("date_to") != "" }}
+                                    is-invalid {{end}}' type="text" name="date_to" id="date_to" value="{{res.DateTo}}"
+                                    placeholder="Дата выезда">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="phone">Номер телефона:</label>
+                        <label class="text-danger">{{form.Errors.Err("phone")}}</label>
+                        <input class="form-control phone" type="tel" name="phone" id="phone" value="{{res.Phone}}"
+                            placeholder="+7 (___)-___-__-__" aria-describedby="phoneHelp">
+                        <small id="phoneHelp" class="form-text text-muted">Это поле необязательно</small>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <div>
+                            <label for="email">Эл.почта:</label>
+                            <label class="text-danger">{{form.Errors.Err("email")}}</label>
+                            <input required class='form-control {{if form.Errors.Err("email") != "" }} is-invalid
+                                {{end}}' type="text" name="email" id="email" value="{{res.Email}}" placeholder="Эл.почта">
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="room">Выберите желаемый номер:</label>
+                        <select class="form-select" required name="room" id="room">
+                            <option value="1">Одноместный номер</option>
+                            <option value="2">Двухместный номер</option>
+                            <option value="3">Семейный номер</option>
+                        </select>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-success">Забронировать</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{{end}}

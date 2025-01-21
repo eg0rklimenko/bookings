@@ -1,0 +1,15 @@
+mode: set
+github.com/mo0Oonnn/bookings/internal/forms/errors.go:5.47,7.2 1 1
+github.com/mo0Oonnn/bookings/internal/forms/errors.go:9.42,11.27 2 1
+github.com/mo0Oonnn/bookings/internal/forms/errors.go:11.27,13.3 1 1
+github.com/mo0Oonnn/bookings/internal/forms/errors.go:15.2,15.23 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:16.31,18.2 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:20.33,25.2 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:27.43,28.31 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:28.31,30.37 2 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:30.37,32.4 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:36.59,37.40 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:37.40,43.3 2 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:44.2,44.13 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:47.38,48.40 1 1
+github.com/mo0Oonnn/bookings/internal/forms/forms.go:48.40,50.3 1 1

@@ -1,0 +1,57 @@
+{{extends "layouts/layout.jet"}}
+{{block body()}}
+<div id="main-carousel" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/images/outside.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/woman-laptop.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/tray.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container">
+    <h1 class="text-center mt-3"><b>Добро пожаловать в Уютный причал!!!</b></h1>
+    <p class="text-center mt-3">
+        Добро пожаловать в нашу уютную гостиницу! Мы предлагаем комфортное проживание, изысканные блюда и
+        безупречный сервис. У нас вы сможете отдохнуть после долгого дня, насладиться тишиной и спокойствием, а
+        также зарядиться энергией для новых приключений.В нашей гостинице есть всё необходимое для идеального
+        отдыха: уютные номера, оборудованные современной техникой, ресторан с разнообразным меню, бесплатный Wi-Fi.
+        Мы заботимся о вашем комфорте и стараемся сделать ваше пребывание у нас максимально приятным и незабываемым.
+    </p>
+
+    <p class="text-center">
+        Наши сотрудники — настоящие профессионалы своего дела, всегда готовые помочь вам с любыми вопросами и
+        проблемами. Мы рады предложить вам экскурсии по городу, трансфер из аэропорта и организацию мероприятий.
+    </p>
+
+    <p class="text-center">
+        Не упустите возможность провести незабываемый отдых в нашей гостинице! Бронируйте номер прямо сейчас и
+        наслаждайтесь комфортом и уютом.
+    </p>
+
+    <div class="row">
+        <div class="col text-center">
+            <a href="/search-availability" class="btn btn-success">Забронировать сейчас</a>
+        </div>
+    </div>
+</div>
+{{end}}

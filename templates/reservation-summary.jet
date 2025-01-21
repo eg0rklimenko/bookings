@@ -1,0 +1,48 @@
+{{extends "layouts/layout.jet"}}
+{{block body()}}
+{{res := reservation}}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="mt-5"><b>Сводка бронирования</b></h1>
+            <p>*Сохраните эту таблицу, так как после следующего обновления страницы она исчезнет</p>
+
+            <hr>
+
+            <table class="table table-striped">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>Имя:</td>
+                        <td>{{res.FirstName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Фамилия:</td>
+                        <td>{{res.LastName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Дата въезда:</td>
+                        <td>{{res.DateFrom}}</td>
+                    </tr>
+                    <tr>
+                        <td>Дата выезда:</td>
+                        <td>{{res.DateTo}}</td>
+                    </tr>
+                    <tr>
+                        <td>Номер телефона:</td>
+                        <td>{{res.Phone}}</td>
+                    </tr>
+                    <tr>
+                        <td>Эл.почта:</td>
+                        <td>{{res.Email}}</td>
+                    </tr>
+                    <tr>
+                        <td>Вид номера:</td>
+                        <td>{{res.Room}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{{end}}

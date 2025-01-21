@@ -1,0 +1,21 @@
+mode: set
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:22.47,26.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:28.29,30.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:32.69,38.2 3 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:40.68,42.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:45.74,52.2 5 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:55.78,57.16 2 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:57.16,60.3 2 0
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:62.2,79.21 7 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:79.21,86.3 5 0
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:88.2,90.66 2 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:94.73,96.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:99.73,101.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:104.76,106.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:109.73,111.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:114.75,116.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:119.79,124.2 3 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:127.70,129.2 1 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:131.81,133.9 2 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:133.9,138.3 4 1
+github.com/mo0Oonnn/bookings/internal/handlers/handlers.go:140.2,145.62 4 0

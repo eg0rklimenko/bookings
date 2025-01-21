@@ -1,0 +1,14 @@
+mode: set
+github.com/mo0Oonnn/bookings/internal/render/render.go:20.37,22.2 1 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:24.64,31.2 5 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:33.95,36.24 2 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:36.24,38.3 1 0
+github.com/mo0Oonnn/bookings/internal/render/render.go:38.8,40.3 1 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:42.2,43.16 2 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:43.16,46.3 2 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:48.2,52.47 3 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:52.47,55.3 2 0
+github.com/mo0Oonnn/bookings/internal/render/render.go:57.2,57.41 1 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:57.41,60.3 2 0
+github.com/mo0Oonnn/bookings/internal/render/render.go:61.2,61.12 1 1
+github.com/mo0Oonnn/bookings/internal/render/render.go:64.37,67.2 2 1
